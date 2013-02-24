@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="action_bar_height">60dp</dimen>
+    <dimen name="search_height">42dp</dimen>
+    <dimen name="search_hint_size">14sp</dimen>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AimpControl" parent="Theme.Sherlock">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
+        <item name="android:actionBarSize">@dimen/action_bar_height</item>
+        <item name="actionBarSize">@dimen/action_bar_height</item>
+    </style>
+
+    <style name="Widget.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">#1c1c1c</item>
+        <item name="background">#1c1c1c</item>
+    </style>
+
+
+    <style name="pls_song">
+        <item name="android:textColor">@color/pls_song_text</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="pls_header">
+        <item name="android:textColor">@color/pls_header</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <color name="pls_header">#f98319</color>
+    <color name="pls_list_divider">#444444</color>
+
+    <color name="pls_song_text">#ececec</color>
+    <color name="pls_search_hint">#777777</color>
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282828">
+
+    <RelativeLayout
+        android:id="@+id/panel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#0c0c0c">
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="17sp"
+            android:textColor="#676767"
+            />
+
+        <ImageView
+            android:id="@+id/play_controller_icon"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/btn_play_controller_default"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="14dp"
+            />
+
+        <ImageView
+            android:id="@+id/common_controller_icon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/btn_common_controller_default"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            />
+
+        <View
+            android:id="@+id/play_controller_switcher"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            />
+        <View
+            android:id="@+id/common_controller_switcher"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/pls_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/panel"
+        />
+
+    <FrameLayout
+        android:id="@+id/controller_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/panel"
+        />
+
+    <RelativeLayout
+        android:id="@+id/connection_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/connection"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/ic_network_disconnected"
+            android:layout_centerInParent="true"
+            android:padding="30dp"
+            android:background="@drawable/no_connection"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/init_pls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/controller_wrapper"
+        android:background="#A0000000"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/pls_list_init"
+            android:textColor="#eee"
+            android:textSize="28sp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

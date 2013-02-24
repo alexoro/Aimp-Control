@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- COMMON -->
+    <string name="empty"></string>
+    <!-- /COMMON -->
+
+
+    <string name="app_name">Aimp Control</string>
+
+    <string name="search_hint">Поиск...</string>
+    <string name="connecting">Подключение...</string>
+    <string name="pls_list_init">Инициализация...</string>
+
+    <string name="song_delete_title">Удаление песни</string>
+    <string name="song_delete_message" formatted="false">Удалить песню %s?</string>
+    <string name="song_delete_submit">Удалить</string>
+
+    <string name="menu_dialog_title">Меню</string>
+    <string name="menu_dialog_close">Закрыть</string>
+    <string name="menu_dialog_connect">Подключиться</string>
+    <string name="menu_dialog_disconnect">Отключиться</string>
+    <string name="menu_dialog_info">Информация</string>
+    <string name="menu_dialog_settings">Настройки</string>
+    <string name="menu_dialog_donate">Donate</string>
+    <string name="menu_dialog_exit">Выход</string>
+
+    <string name="error">Ошибка</string>
+    <string name="close">Закрыть</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="menu_others">Меню</string>
+    <string name="goto_settings">Настройки</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_host_title">Адрес компьютера</string>
+    <string name="settings_port_title">Порт</string>
+    <string name="settings_port_hint">Значение по умолчанию - 38475</string>
+    <string name="settings_sync_profile_title">Частота синхронизации</string>
+    <string name="settings_sync_profile_rarely">Редкая</string>
+    <string name="settings_sync_profile_optimally">Оптимальная</string>
+    <string name="settings_sync_profile_often">Частая</string>
+    <string name="settings_invalid_port_value">Port value should be in range from 1 to 65535</string>
+
+    <string name="menu_info">Справка</string>
+    <string name="menu_info_reference">Руководство</string>
+    <string name="menu_info_old_versions">Загрузка старых версий</string>
+    <string name="menu_info_github">GitHub</string>
+    <string name="menu_info_about">О программе</string>
+
+    <string name="info_old_versions_title">Загрузка старых версий</string>
+    <string name="info_old_versions_message">Вы можете загрузить старые версии приложения.</string>
+    <string name="info_old_versions_goto_catalog_title">Загрузить</string>
+    <string name="info_old_versions_goto_catalog_message" formatted="false">https://www.dropbox.com/sh/2163yyzsbjzw7hs/N86YraRmw0</string>
+
+    <string name="menu_info_github_title">GitHub</string>
+    <string name="menu_info_github_message">Теперь Aimp Control - это проект с открытым исходным кодом (лицензия BSD). Вы можете поддержать проект и помочь его развитию. Я буду очень рад увидеть в команде поддержки талантливых программистов и UI-дизайнеров :)</string>
+    <string name="menu_info_github_goto_catalog_title">Перейти на GitHub</string>
+    <string name="menu_info_github_goto_catalog_message" formatted="false">https://github.com/alexoro/Aimp-Control</string>
+
+
+    <string name="info_about_title">О программе &amp; обратная связь</string>
+    <string name="info_about_content" formatted="false"><![CDATA[
+		<p>Приложение: AIMP Control</p>
+		<p>Версия приложения: 3.0</p>
+		<p>Сайт приложения: тема на форуме сайта <a href=\"http://4pda.ru\">4pda.ru</a>: <a href=\"http://4pda.ru/forum/index.php?showtopic=239898\">Aimp Control</a></p>
+
+		<p>Программа AIMP Control предназначена для управления плеером AIMP.</p>
+		<p>Для работы приложения необходимо установить плагин <a href=\"http://code.google.com/p/aimp-web-ctl/\">Web Control Plugin</a>.</p>
+
+		<p>Для связи с автором используйте e-mail: uas.sorokin@gmail.com</p>
+	]]></string>
+
+    <string name="info_reference_title">Инструкция</string>
+    <string name="info_reference_content" formatted="false"><![CDATA[
+	<p>Для настройки управления следует произвести следующие действия:</p>
+	<p>1. Скачайте и установите AIMP-плеер: <a href=\"http://aimp.ru\">http://aimp.ru</a>. Минимальная поддерживаемая версия плеера: 2.6 beta 2 build 485.</p>
+	<p>2. Скачайте плагин Aimp-Web-Ctl, расположенного по адресу: <a href=\"http://code.google.com/p/aimp-web-ctl/\">http://code.google.com/p/aimp-web-ctl/</a></p>
+	<p>3. Скопируйте содержимое архива в директорию plugins, которая расположена в папке установки AIMP</p>
+	<p>4. Активируйте плагин в настройках плеера</p>
+	<p>5. Настройте профиль подключения в настройках Aimp Control. Ваш компьютер, на котором установлен AIMP, должен иметь \"белый\" IP, чтобы приложение смогло его найти. Используемый по умолчанию порт - 38475</p>
+	<p>6. Сохраните изменения</p>
+	<p>7. Управляйте AIMP с помощью AIMP Control =)</p>
+	]]></string>
+
+
+    <string name="billing_not_supported_title">Ошибка!</string>
+    <string name="billing_not_supported_message">Извините, но возможность осуществления покупок недоступна для Вашего устройства.</string>
+
+    <string name="error_host_not_found">Невозможно получить доступ к указанному адресу компьютера. Возможно, firewall не позволяет получить доступ.</string>
+    <string name="error_aimp_not_found">AIMP не найден. Возможно, он не запущен, либо firewall не позволяет получить доступ к приложению.</string>
+    <string name="error_unknown">Неизвестная ошибка.</string>
+
+</resources>

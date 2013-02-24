@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="3dp"
+	android:background="#212121">
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+        android:padding="4dp"
+        android:src="@drawable/ic_launcher"
+		/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                        android:id="@+id/previous"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:src="@drawable/btn_previous"
+                        />
+                <ImageView
+                        android:id="@+id/play_pause"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/btn_play"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        />
+                <ImageView
+                        android:id="@+id/next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/btn_next"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ececec"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:singleLine="true"
+                android:lines="1"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:fadingEdge="horizontal"
+                android:focusable="false"
+                android:scrollHorizontally="true"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <FrameLayout
+                android:id="@+id/play_pause_clickable"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                />
+        <FrameLayout
+                android:id="@+id/previous_clickable"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/play_pause_clickable"
+                />
+        <FrameLayout
+                android:id="@+id/next_clickable"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/play_pause_clickable"
+                />
+
+    </RelativeLayout>
+
+</LinearLayout>

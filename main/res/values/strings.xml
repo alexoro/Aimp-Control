@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- COMMON -->
+    <string name="empty"></string>
+    <string name="timer_format" formatted="false">%02d:%02d  /  %02d:%02d</string>
+    <string name="playlist_header_format" formatted="false">%PLAYLIST_POSITION%/%PLAYLIST_COUNT% - %PLAYLIST_NAME%</string>
+    <string name="playlist_length_format" formatted="false">%02d:%02d:%02d</string>
+    <string name="song_length_format" formatted="false">%02d:%02d</string>
+    <string name="settings_port_default">38475</string>
+    <!-- /COMMON -->
+
+
+    <string name="app_name">Aimp Control</string>
+
+    <string name="search_hint">Search...</string>
+    <string name="connecting">Connecting...</string>
+    <string name="pls_list_init">Initializing...</string>
+
+    <string name="song_delete_title">Delete song</string>
+    <string name="song_delete_message" formatted="false">Delete song %s?</string>
+    <string name="song_delete_submit">Delete</string>
+
+    <string name="menu_dialog_title">Menu</string>
+    <string name="menu_dialog_close">Close</string>
+    <string name="menu_dialog_connect">Connect</string>
+    <string name="menu_dialog_disconnect">Disconnect</string>
+    <string name="menu_dialog_info">Information</string>
+    <string name="menu_dialog_settings">Settings</string>
+    <string name="menu_dialog_donate">Donate</string>
+    <string name="menu_dialog_exit">Exit</string>
+
+    <string name="error">Error</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="menu_others">Menu</string>
+    <string name="goto_settings">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_host_title">Host address</string>
+    <string name="settings_port_title">Port</string>
+    <string name="settings_port_hint">Default value is 38475</string>
+    <string name="settings_sync_profile_title">Sync frequency</string>
+    <string name="settings_sync_profile_rarely">Rarely</string>
+    <string name="settings_sync_profile_optimally">Optimally</string>
+    <string name="settings_sync_profile_often">Often</string>
+    <string name="settings_invalid_port_value">Допустимое значение порта - от 1 до 65535</string>
+
+    <string name="menu_info">Info</string>
+    <string name="menu_info_reference">Reference</string>
+    <string name="menu_info_old_versions">Download old versions</string>
+    <string name="menu_info_github">GitHub</string>
+    <string name="menu_info_about">About program</string>
+
+    <string name="info_old_versions_title">Download old versions</string>
+    <string name="info_old_versions_message">You can download previous version of program.</string>
+    <string name="info_old_versions_goto_catalog_title">Download</string>
+    <string name="info_old_versions_goto_catalog_message" formatted="false">https://www.dropbox.com/sh/2163yyzsbjzw7hs/N86YraRmw0</string>
+
+    <string name="menu_info_github_title">GitHub</string>
+    <string name="menu_info_github_message">Now project is Open Source (BSD-license). You can support it and upgrade it. I will be very happy for support from great developers and UI-designers :)</string>
+    <string name="menu_info_github_goto_catalog_title">Go to GitHub</string>
+    <string name="menu_info_github_goto_catalog_message" formatted="false">https://github.com/alexoro/Aimp-Control</string>
+
+
+    <string name="info_about_title">About program &amp; feedback</string>
+    <string name="info_about_content" formatted="false"><![CDATA[
+		<p>Application: AIMP Control</p>
+		<p>Version: 3.0</p>
+		<p>Site: forum thread on <a href=\"http://4pda.ru\">4pda.ru</a> forum: <a href=\"http://4pda.ru/forum/index.php?showtopic=239898\">Aimp Control</a></p>
+
+		<p>AIMP Control is aimed to control AIMP player.</p>
+		<p>It is required <a href=\"http://code.google.com/p/aimp-web-ctl/\">Web Control Plugin</a> to be installed to AIMP.</p>
+
+		<p>You can contact with author via e-mail: uas.sorokin@gmail.com</p>
+	]]></string>
+
+
+    <string name="info_reference_title">Reference</string>
+    <string name="info_reference_content" formatted="false"><![CDATA[
+	<p>To configure the management of app you should do the following:</p>
+	<p>1. Download and install AIMP from <a href=\"http://aimp.ru\">http://aimp.ru</a>. Minimal supported version is 2.6 beta 2 build 485.</p>
+	<p>2. Download plugin Aimp-Web-Ctl from <a href=\"http://code.google.com/p/aimp-web-ctl/\">http://code.google.com/p/aimp-web-ctl/</a></p>
+	<p>3. Unzip archieve to \"plugins\" directory which is located in the AIMP\'s installation folder</p>
+	<p>4. Activate plugin in player preferences</p>
+	<p>5. Edit connection profiles in Aimp Control\'s preferences. Internet connection must be over \"white\" IP (only one PC must have this IP). The default port is 38475</p>
+	<p>6. Save changes</p>
+	<p>7. Control AIMP via AIMP Control =)</p>
+	]]></string>
+
+
+    <string name="billing_not_supported_title">Error!</string>
+    <string name="billing_not_supported_message">Sorry. It seems that in-app billing service is not supported on your device.</string>
+
+    <string name="error_host_not_found">Unable to resolve host address. Check that firewall allows connections to PC.</string>
+    <string name="error_aimp_not_found">AIMP not found. Check AIMP is running and firewall allows connections to PC.</string>
+    <string name="error_unknown">Unknown error.</string>
+
+</resources>

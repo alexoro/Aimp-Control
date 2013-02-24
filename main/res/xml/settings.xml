@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="host"
+        android:defaultValue=""
+        android:title="@string/settings_host_title"
+        android:summary=""
+        android:persistent="true"
+        android:singleLine="true"
+        />
+    <EditTextPreference
+        android:key="port"
+        android:defaultValue="38475"
+        android:title="@string/settings_port_title"
+        android:summary=""
+        android:persistent="true"
+        android:inputType="numberSigned"
+        android:singleLine="true"
+        android:text="38475"
+        android:hint=""
+        />
+
+    <ListPreference
+        android:key="sync_profile"
+        android:title="@string/settings_sync_profile_title"
+        android:summary=""
+        android:entries="@array/settings_sync_profile_entries"
+        android:entryValues="@array/settings_sync_profile_entries_values"
+        android:defaultValue="2"
+        android:persistent="true"
+        />
+
+</PreferenceScreen>
